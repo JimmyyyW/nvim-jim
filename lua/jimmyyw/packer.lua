@@ -46,6 +46,7 @@ return require('packer').startup(function(use)
 
             -- LSP Support
             { 'neovim/nvim-lspconfig' },
+            { 'ray-x/lsp_signature.nvim' },
             -- Autocompletion
             { 'hrsh7th/nvim-cmp' },
             { 'hrsh7th/cmp-nvim-lsp' },

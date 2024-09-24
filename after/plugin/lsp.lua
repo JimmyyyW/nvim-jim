@@ -27,6 +27,12 @@ lsp_zero.on_attach(function(client, bufnr)
 end)
 vim.keymap.set('n', '<leader>fm', '<cmd>LspZeroFormat<CR>')
 
+require('lsp_signature').setup({
+    bind = true,
+    handler_opts = {
+        border = 'rounded'
+    }
+})
 require('lspconfig').tsserver.setup({})
 require('lspconfig').gopls.setup({})
 require('lspconfig').golangci_lint_ls.setup({})

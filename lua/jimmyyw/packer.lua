@@ -5,6 +5,7 @@ return require('packer').startup(function(use)
     -- Packer can manage itself
     use 'christoomey/vim-tmux-navigator'
     use 'wbthomason/packer.nvim'
+    use 'github/copilot.vim'
     use {
         'numToStr/Comment.nvim',
         config = function()

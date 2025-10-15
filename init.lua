@@ -1,9 +1,10 @@
 require("jimmyyw")
 
-vim.cmd 'colorscheme rose-pine'
+vim.cmd 'colorscheme rose-pine-moon'
 
 vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" })
 vim.api.nvim_set_hl(0, "TelescopeBorder", { fg = 'none', bg = "none" })
+vim.api.nvim_set_hl(0, "ColorColumn", { bg = "#2e2e2e" })
 -- vim.api.nvim_set_hl(0, "TelescopeTitle", { fg = 'none', bg = "none" })
 -- vim.api.nvim_set_hl(0, "TelescopeSelection", { bg = "rose-pine" })
 -- vim.api.nvim_set_hl(0, "TelescopePreviewNormal", { fg = 'none', bg = "none" })

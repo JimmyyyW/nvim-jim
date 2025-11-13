@@ -63,6 +63,10 @@ vim.lsp.config('ts_ls', {})
 vim.lsp.config('gopls', {})
 vim.lsp.config('golangci_lint_ls', {})
 vim.lsp.config('rust_analyzer', {})
+vim.lsp.config('kotlin-lsp', {
+    cmd = { 'kotlin-lsp' },
+    filetypes = { 'kotlin', 'kt' },
+})
 
 -- ====================
 -- UI settings
@@ -98,4 +102,5 @@ vim.lsp.enable({
     'gopls',
     'golangci_lint_ls',
     'rust_analyzer',
+    'kotlin-lsp',
 })
